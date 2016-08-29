@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+/root/httprelay/start.sh
+
+exit 0

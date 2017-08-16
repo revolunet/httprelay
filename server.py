@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 
-from bottle import route, request, response, run, hook
+from bottle import route, response, run, hook
 
 #
 # Minimal http server for GPIO control

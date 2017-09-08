@@ -4,7 +4,7 @@ Minimal python HTTP server with CORS support to control RaspberryPi GPIOs, for e
 
 ## setup
 
- - [download] the project
+ - [download](https://github.com/revolunet/httprelay/archive/master.zip) the project
  - run `pip install -r requirements.txt`
  - defines the GPIOs pins to control in server.py
 

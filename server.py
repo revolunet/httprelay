@@ -38,7 +38,7 @@ GPIOS = [
 
 for pin in GPIOS:
   print "setup GPIO", pin
-  GPIO.setup(pin, GPIO.OUT, initial=GPIO.LOW)
+  GPIO.setup(pin, GPIO.OUT, initial=GPIO.HIGH)
 
 def get_pin_value(pin):
   value = GPIO.input(pin)

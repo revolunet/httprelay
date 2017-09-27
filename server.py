@@ -9,7 +9,32 @@ from bottle import route, response, run, hook
 # physical board pin number
 GPIO.setmode(GPIO.BOARD)
 
-GPIOS = [37, 35, 33, 31, 29, 40, 38, 36]
+GPIOS = [
+  7,
+  11,
+  13,
+  15,
+  19,
+  21,
+  23,
+  29,
+  31,
+  33,
+  35,
+  37,
+  8,
+  10,
+  12,
+  16,
+  18,
+  22,
+  24,
+  26,
+  32,
+  36,
+  38,
+  40
+];
 
 for pin in GPIOS:
   print "setup GPIO", pin
